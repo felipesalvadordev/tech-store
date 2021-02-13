@@ -10,6 +10,7 @@ Projeto utiliza as seguintes práticas/tecnologias:
 - Design Patterns
 
 Projeto baseado no curso abaixo:
+
 https://desenvolvedor.io/curso-online-modelagem-de-dominios-ricos
 
 Desenvolvimento ainda em andamento.
