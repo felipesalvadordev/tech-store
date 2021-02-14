@@ -5,6 +5,7 @@ Projeto utiliza as seguintes práticas/tecnologias:
 
 - DDD (https://www.eduardopires.net.br/2016/08/ddd-nao-e-arquitetura-em-camadas/)
 - CRQS (https://www.eduardopires.net.br/2016/07/cqrs-o-que-e-onde-aplicar/)
+- Testes de unidade
 - Entity Framework
 - Fluent Validation
 - Design Patterns
