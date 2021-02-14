@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using TechStore.Core.DomainObjects;
 using TechStore.Venda.Domain.Enums;
 using FluentValidation.Results;

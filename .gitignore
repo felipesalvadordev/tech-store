@@ -54,3 +54,15 @@ src/TechStore.Catalogo.Data/obj/Debug/netcoreapp2.2/TechStore.Catalogo.Data.Asse
 src/TechStore.Catalogo.Data/bin/Debug/netcoreapp2.2/TechStore.Catalogo.Data.deps.json
 .vs/TechStore/v15/.suo
 src/TechStore.Catalogo.Data/obj/project.assets.json
+/src/TechStore.Core/bin/Debug/netcoreapp2.2/TechStore.Core.deps.json
+/.vs/TechStore/DesignTimeBuild/.dtbcache
+/src/TechStore.Vendas.Data/obj/project.assets.json
+/src/TechStore.Venda.Domain/obj/project.assets.json
+/src/TechStore.Vendas.Application/obj/project.assets.json
+/src/TechStore.Catalogo.Data/obj/project.assets.json
+/.vs/config/applicationhost.config
+*.CopyComplete
+/src/TechStore.Catalogo.Domain/bin/Debug/netcoreapp2.2/TechStore.Catalogo.Domain.deps.json
+/src/TechStore.Core/obj/project.assets.json
+/src/TechStore.Catalogo.Application/obj/project.assets.json
+/src/TechStore.Catalogo.Domain/obj/project.assets.json
