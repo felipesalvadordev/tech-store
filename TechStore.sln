@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechStore.Core", "src\TechS
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApps", "WebApps", "{F0F8A44B-5A8B-4F8B-A6D9-B354785F72CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechStore.WebApp", "src\TechStore.WebApp\TechStore.WebApp.csproj", "{47B9917B-F9E3-4390-8437-D6F0222ABF33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{482A1C6C-2718-48CB-9F0C-C9F4CC24E5E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{482A1C6C-2718-48CB-9F0C-C9F4CC24E5E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{482A1C6C-2718-48CB-9F0C-C9F4CC24E5E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47B9917B-F9E3-4390-8437-D6F0222ABF33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47B9917B-F9E3-4390-8437-D6F0222ABF33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47B9917B-F9E3-4390-8437-D6F0222ABF33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47B9917B-F9E3-4390-8437-D6F0222ABF33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -79,6 +85,7 @@ Global
 		{FFECDEE5-7BEB-42CC-8E31-52EEF4547F08} = {7401C8D9-AF0D-48DB-9FD0-7D0B222D2D4C}
 		{49EBFF39-074C-488F-A1EE-EA8629F775A2} = {7401C8D9-AF0D-48DB-9FD0-7D0B222D2D4C}
 		{482A1C6C-2718-48CB-9F0C-C9F4CC24E5E0} = {59E9E31C-FD85-4664-BD60-B624156E2218}
+		{47B9917B-F9E3-4390-8437-D6F0222ABF33} = {F0F8A44B-5A8B-4F8B-A6D9-B354785F72CE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D517FE3E-8552-44ED-A965-E743CDE1DF84}
