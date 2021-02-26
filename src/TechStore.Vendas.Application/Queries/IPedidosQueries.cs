@@ -6,7 +6,7 @@ using TechStore.Vendas.Application.Queries.ViewModels;
 
 namespace TechStore.Vendas.Application.Queries
 {
-    public interface IPedidoQueries
+    public interface IPedidosQueries
     {
         Task<CarrinhoViewModel> ObterCarrinhoCliente(Guid clienteId);
         Task<IEnumerable<PedidoViewModel>> ObterPedidosCliente(Guid clienteId);

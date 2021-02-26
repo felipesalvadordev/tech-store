@@ -15,24 +15,24 @@ namespace TechStore.WebApp.Controllers
     public class CarrinhoController : ControllerBase
     {
         private readonly IProdutoAppService _produtoAppService;
-        private readonly IPedidoQueries _pedidoQueries;
+        private readonly IPedidosQueries _pedidosQueries;
         private readonly IMediatorHandler _mediatorHandler;
 
         public CarrinhoController(INotificationHandler<DomainNotification> notifications,
                                   IProdutoAppService produtoAppService,
                                   IMediatorHandler mediatorHandler,
-                                  IPedidoQueries pedidoQueries) : base(notifications, mediatorHandler)
+                                  IPedidosQueries pedidosQueries) : base(notifications, mediatorHandler)
         {
             _produtoAppService = produtoAppService;
             _mediatorHandler = mediatorHandler;
-            _pedidoQueries = pedidoQueries;
+            _pedidosQueries = pedidosQueries;
         }
 
         [HttpPost]
         [Route("pedidos")]
         public async Task<IActionResult> IniciarPedido(CarrinhoViewModel carrinhoViewModel)
         {
-            var carrinho = await _pedidoQueries.ObterCarrinhoCliente(ClienteId);
+            var carrinho = await _pedidosQueries.ObterCarrinhoCliente(ClienteId);
 
             var command = new IniciarPedidoCommand(carrinho.PedidoId, ClienteId, carrinho.ValorTotal, carrinhoViewModel.Pagamento.NomeCartao,
                 carrinhoViewModel.Pagamento.NumeroCartao, carrinhoViewModel.Pagamento.ExpiracaoCartao, carrinhoViewModel.Pagamento.CvvCartao);
