@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
@@ -13,13 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\src\TechStore.Catalogo.Domain\TechStore.Catalogo.Domain.csproj" />
     <ProjectReference Include="..\..\src\TechStore.Core\TechStore.Core.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="TechStore.Catalogo.Domain">
-      <HintPath>..\..\src\TechStore.Catalogo.Domain\bin\Debug\netcoreapp2.2\TechStore.Catalogo.Domain.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
 </Project>
