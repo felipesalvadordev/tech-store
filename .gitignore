@@ -76,3 +76,4 @@ src/TechStore.WebApp/obj/Debug/netcoreapp2.2/TechStore.WebApp.csproj.FileListAbs
 src/TechStore.WebApp/bin/Debug/netcoreapp2.2/TechStore.WebApp.runtimeconfig.dev.json
 src/TechStore.WebApp/bin/Debug/netcoreapp2.2/TechStore.WebApp.deps.json
 src/TechStore.Vendas.Data/bin/Debug/netcoreapp2.2/TechStore.Vendas.Data.runtimeconfig.dev.json
+/tests/TechStore.Catalogo.Domain.Tests
