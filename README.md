@@ -8,7 +8,6 @@ Projeto utiliza as seguintes práticas/tecnologias:
 - Testes de unidade
 - Entity Framework
 - Fluent Validation
-- Design Patterns
 
 Projeto baseado no curso abaixo:
 
