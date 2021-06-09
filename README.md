@@ -1,5 +1,5 @@
 # TechStore
-Sistema de vendas desenvolvido com práticas do DDD (Domain Driven Design)
+Sistema de vendas desenvolvido com práticas do DDD (Domain Driven Design), Clean Architecture e Clean Code.
 
 Projeto utiliza as seguintes práticas/tecnologias:
 
