@@ -10,6 +10,9 @@ using TechStore.Vendas.Application.Queries;
 using TechStore.Venda.Domain;
 using TechStore.Vendas.Data;
 using TechStore.Vendas.Application.Commands;
+using TechStore.Catalogo.Domain;
+using TechStore.Catalogo.Data;
+using TechStore.Catalogo.Application.Services;
 
 namespace TechStore.WebApp.Setup
 {
@@ -22,7 +25,10 @@ namespace TechStore.WebApp.Setup
             services.AddScoped<IPedidoRepository, PedidoRepository>();
             services.AddScoped<IPedidosQueries, PedidosQueries>();
             services.AddScoped<VendasContext>();
-
+            services.AddScoped<CatalogoContext>();
+            services.AddScoped<IProdutoRepository, ProdutoRepository>();
+            services.AddScoped<IProdutoAppService, ProdutoAppService>();
+            services.AddScoped<IEstoqueService, EstoqueService>();
             services.AddScoped<IRequestHandler<IniciarPedidoCommand, bool>, PedidoCommandHandler>();
         }
     }

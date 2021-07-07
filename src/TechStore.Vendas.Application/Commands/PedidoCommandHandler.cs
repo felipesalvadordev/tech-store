@@ -31,6 +31,12 @@ namespace TechStore.Vendas.Application.Commands
             if (!ValidarComando(message)) return false;
 
             var pedido = await _pedidoRepository.ObterPedidoRascunhoPorClienteId(message.ClienteId);
+
+            if (pedido == null)
+            {
+                pedido = Pedido.PedidoFactory.NovoPedidoRascunho(message.ClienteId);
+            }
+
             pedido.IniciarPedido();
 
             var itensList = new List<Item>();
@@ -45,6 +51,8 @@ namespace TechStore.Vendas.Application.Commands
 
         private bool ValidarComando(Command message)
         {
+            if (message.Valido()) return true;
+
             foreach (var error in message.ValidationResult.Errors)
             {
                 _mediatorHandler.PublicarNotificacao(new DomainNotification(message.MessageType, error.ErrorMessage));

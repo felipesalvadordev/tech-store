@@ -77,3 +77,12 @@ src/TechStore.WebApp/bin/Debug/netcoreapp2.2/TechStore.WebApp.runtimeconfig.dev.
 src/TechStore.WebApp/bin/Debug/netcoreapp2.2/TechStore.WebApp.deps.json
 src/TechStore.Vendas.Data/bin/Debug/netcoreapp2.2/TechStore.Vendas.Data.runtimeconfig.dev.json
 /tests/TechStore.Catalogo.Domain.Tests
+/.vs/TechStore
+/src/TechStore.Catalogo.Application/obj/TechStore.Catalogo.Application.csproj.nuget.dgspec.json
+/src/TechStore.Catalogo.Application/obj/Debug/netcoreapp2.2/.NETCoreApp,Version=v2.2.AssemblyAttributes.cs
+/src/TechStore.Catalogo.Data/obj
+/src/TechStore.Catalogo.Domain/obj/TechStore.Catalogo.Domain.csproj.nuget.dgspec.json
+/src/TechStore.Catalogo.Domain/obj/Debug/netcoreapp2.2
+/src/TechStore.Core/obj
+/src/TechStore.Venda.Domain/obj
+/src/TechStore.Vendas.Application/obj

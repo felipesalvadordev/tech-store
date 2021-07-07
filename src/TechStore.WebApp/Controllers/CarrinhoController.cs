@@ -28,6 +28,13 @@ namespace TechStore.WebApp.Controllers
             _pedidosQueries = pedidosQueries;
         }
 
+        [HttpGet]
+        [Route("meu-carrinho")]
+        public async Task<IActionResult> Index()
+        {
+            return View(await _pedidosQueries.ObterCarrinhoCliente(ClienteId));
+        }
+
         [HttpPost]
         [Route("pedidos")]
         public async Task<IActionResult> IniciarPedido(CarrinhoViewModel carrinhoViewModel)

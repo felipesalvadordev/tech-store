@@ -15,5 +15,10 @@ namespace TechStore.Core.Messages
         {
             Timestamp = DateTime.Now;
         }
+
+        public virtual bool Valido()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

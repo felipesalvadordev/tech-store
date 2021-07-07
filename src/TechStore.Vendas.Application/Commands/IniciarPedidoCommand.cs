@@ -27,7 +27,7 @@ namespace TechStore.Vendas.Application.Commands
             CvvCartao = cvvCartao;
         }
 
-        public bool Valido()
+        public override bool Valido()
         {
             ValidationResult = new IniciarPedidoValidation().Validate(this);
             return ValidationResult.IsValid;

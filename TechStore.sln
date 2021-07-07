@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1340
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{DEDAFDB4-908C-4CBD-9357-22C1609D2C30}"
 EndProject
@@ -31,7 +31,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApps", "WebApps", "{F0F8
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechStore.WebApp", "src\TechStore.WebApp\TechStore.WebApp.csproj", "{47B9917B-F9E3-4390-8437-D6F0222ABF33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechStore.Catalogo.Domain.Tests", "tests\TechStore.Catalogo.Domain.Tests\TechStore.Catalogo.Domain.Tests.csproj", "{94F62B73-79D9-4D93-BE65-6AD0D6EBFB94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechStore.Catalogo.Domain.Tests", "tests\TechStore.Catalogo.Domain.Tests\TechStore.Catalogo.Domain.Tests.csproj", "{94F62B73-79D9-4D93-BE65-6AD0D6EBFB94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechStore.Vendas.Application.Tests", "tests\TechStore.Vendas.Application.Tests\TechStore.Vendas.Application.Tests.csproj", "{3BEDD272-15D3-4B0C-8744-F63F8226FF98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestesIntegracao", "TestesIntegracao", "{F82D2A9B-7F51-4F52-989F-BD651DC0ED01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechStore.WebApp.Tests", "tests\TechStore.WebApp.Tests\TechStore.WebApp.Tests.csproj", "{0DD4417C-9441-4256-B206-1DCD3812D705}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{593975D7-7D4E-4BB8-AC3C-482F04F4A34F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +83,14 @@ Global
 		{94F62B73-79D9-4D93-BE65-6AD0D6EBFB94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94F62B73-79D9-4D93-BE65-6AD0D6EBFB94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94F62B73-79D9-4D93-BE65-6AD0D6EBFB94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BEDD272-15D3-4B0C-8744-F63F8226FF98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BEDD272-15D3-4B0C-8744-F63F8226FF98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BEDD272-15D3-4B0C-8744-F63F8226FF98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BEDD272-15D3-4B0C-8744-F63F8226FF98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DD4417C-9441-4256-B206-1DCD3812D705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DD4417C-9441-4256-B206-1DCD3812D705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DD4417C-9441-4256-B206-1DCD3812D705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DD4417C-9441-4256-B206-1DCD3812D705}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -93,6 +109,10 @@ Global
 		{482A1C6C-2718-48CB-9F0C-C9F4CC24E5E0} = {59E9E31C-FD85-4664-BD60-B624156E2218}
 		{47B9917B-F9E3-4390-8437-D6F0222ABF33} = {F0F8A44B-5A8B-4F8B-A6D9-B354785F72CE}
 		{94F62B73-79D9-4D93-BE65-6AD0D6EBFB94} = {99737A97-EC7A-42C8-A7D8-86EE18712CCD}
+		{3BEDD272-15D3-4B0C-8744-F63F8226FF98} = {593975D7-7D4E-4BB8-AC3C-482F04F4A34F}
+		{F82D2A9B-7F51-4F52-989F-BD651DC0ED01} = {F0F8A44B-5A8B-4F8B-A6D9-B354785F72CE}
+		{0DD4417C-9441-4256-B206-1DCD3812D705} = {F82D2A9B-7F51-4F52-989F-BD651DC0ED01}
+		{593975D7-7D4E-4BB8-AC3C-482F04F4A34F} = {7401C8D9-AF0D-48DB-9FD0-7D0B222D2D4C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D517FE3E-8552-44ED-A965-E743CDE1DF84}
