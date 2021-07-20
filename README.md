@@ -10,7 +10,8 @@ Projeto utiliza as seguintes práticas/tecnologias:
 - Design Patterns (Mediator)
 - Repositórios (Entity Framework_
 - Validações (Fluent Validation)
-- 
+
+
 Projeto baseado no curso abaixo:
 
 https://desenvolvedor.io/curso-online-modelagem-de-dominios-ricos
