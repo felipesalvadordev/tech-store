@@ -3,13 +3,13 @@ Sales system developed with DDD (Domain Driven Design), Clean Architecture and C
 
 The project uses the following practices/technologies:  
 
-- DDD (https://www.eduardopires.net.br/2016/08/ddd-nao-e-arquitetura-em-camadas/)
-- CQRS (https://www.eduardopires.net.br/2016/07/cqrs-o-que-e-onde-aplicar/)
-- Unit tests (Xunit)
-- Integration tests (MVC.Testing)
-- Design Patterns (Mediator)
-- Repository (Entity Framework)
-- Validations (Fluent Validation)
+- DDD: https://www.eduardopires.net.br/2016/08/ddd-nao-e-arquitetura-em-camadas/
+- CQRS: https://www.eduardopires.net.br/2016/07/cqrs-o-que-e-onde-aplicar/
+- Unit tests: Xunit
+- Integration tests: MVC.Testing
+- Design Patterns: Mediator is used to handle domain events
+- Repository: Entity Framework and SQL Server
+- Validations: Fluent Validation
 
 #Project Anatomy 
 
