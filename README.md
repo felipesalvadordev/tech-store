@@ -11,6 +11,27 @@ The project uses the following practices/technologies:
 - Repository (Entity Framework)
 - Validations (Fluent Validation)
 
+#Project Anatomy 
+
+WebApp (User Interface)
+- Controllers
+- ViewModels
+
+Application (Defines the jobs the software is supposed to do and directs the expressive domain objects to work out problems. It does not contain business rules or knowledge)
+- Services
+- ViewModels
+- Commands (Initiate a new order)
+- Queries (Get orders)
+
+Data (Persistence)
+- Repository
+- Database Context
+
+Domain (Business Rules)
+- Domain Classes
+- Domain Services
+- Repository Interfaces
+
 
 Project based on the course below:  
 https://desenvolvedor.io/curso-online-modelagem-de-dominios-ricos
