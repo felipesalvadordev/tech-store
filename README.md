@@ -11,7 +11,7 @@ The project uses the following practices/technologies:
 - Repository: Entity Framework and SQL Server
 - Validations: Fluent Validation
 
-#Project Anatomy 
+# Project Anatomy 
 
 WebApp (User Interface)
 - Controllers
